@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: coral;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+canvas{
+    background-color: red;
+    /* margin-top: 30%; */
+    position: absolute;
+    height: 40vw;
+    width: 40vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.error-pop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    border-radius: 20%;
+    box-shadow:  -2px -2px 0px 0px grey;
+    
+}
+.error-pop .error-msg{
+    text-align: center;
+}
